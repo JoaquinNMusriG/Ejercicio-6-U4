@@ -1,0 +1,14 @@
+{
+    "__class__": "ManejadorProvincias",
+    "provincias": [
+        {
+            "__class__": "Provincia",
+            "__atributos__": {
+                "nombre": "San Juan",
+                "capital": "San Juan",
+                "habitantes": 738959,
+                "dptopartidos": 19
+            }
+        }
+    ]
+}

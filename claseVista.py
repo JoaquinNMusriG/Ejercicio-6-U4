@@ -35,7 +35,7 @@ class FormularioProvincias(tk.LabelFrame):
         return entry
 
     def mostrarEstadoProvinciaEnFormulario(self, provincia):
-        values = (provincia.getNombre(), provincia.getCapital(), provincia.getCantHabitantes(), provincia.getCantDptoPatidos())
+        values = (provincia.getNombre(), provincia.getCapital(), provincia.getCantHabitantes(), provincia.getCantDptoPatidos(), provincia.getTemperatura(), provincia.getSencTermica(), provincia.getHumedad())
         for entry, value in zip(self.entries, values):
             entry.delete(0, tk.END)
             entry.insert(0, value)

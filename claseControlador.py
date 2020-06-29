@@ -6,7 +6,7 @@ class ControladorProvincias:
         self.repo = repo
         self.vista = vista
         self.seleccion = -1
-        self.provincias = list(repo.obtenerListaProvincia()) #XQ USA LIST
+        self.provincias = list(repo.obtenerListaProvincia())
 
     def crearProvincia(self):
         nProvincia = nuevaProvincia(self.vista).show()
